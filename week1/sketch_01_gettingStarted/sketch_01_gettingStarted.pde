@@ -1,4 +1,17 @@
 /*
+///////////////////////////////////////////
+GETTING TO KNOW PROCESSING
+///////////////////////////////////////////
+
+Download latest version of Processing: 
+http://www.processing.org 
+
+Refer to the reference:
+https://processing.org/reference/
+*/
+
+
+/*
 This is a multiline comment
 I can type anything here and it won't be compiled
 Here too
