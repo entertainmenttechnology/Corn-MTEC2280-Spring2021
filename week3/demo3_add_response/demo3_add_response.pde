@@ -1,6 +1,7 @@
 /*
 //////////////////////////////////////////////////
- Demo: working with image assets using PImage.
+ Demo3: working with image assets using PImage.
+ Adds mouse response and second image. 
  //////////////////////////////////////////////////
  
  

@@ -1,6 +1,7 @@
 /*
 //////////////////////////////////////////////////
- Demo: working with image assets using PImage.
+ Demo2: working with image assets using PImage.
+ Adds text animation.
  //////////////////////////////////////////////////
  
  
