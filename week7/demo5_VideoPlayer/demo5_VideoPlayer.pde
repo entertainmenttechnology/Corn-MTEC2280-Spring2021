@@ -1,14 +1,19 @@
+/*
+This is a video file player. 
+ */
+
 import processing.video.*;
 Movie file;
 
 void setup() {
-  size(200, 200);
-  file = new Movie(this, "totoro.mov");
+  size(1000, 1000);
+  file = new Movie(this, "wheat.mov");
   file.loop();
+  imageMode(CENTER);
 }
 
 void draw() {
-  tint(255, 20);
+  background(0);
   image(file, mouseX, mouseY);
 }
 

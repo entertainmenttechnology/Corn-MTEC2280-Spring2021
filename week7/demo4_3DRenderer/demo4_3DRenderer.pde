@@ -1,6 +1,10 @@
+/*
+This is a introduction to 3D space. 
+ */
+
 float x,y,z;
 float increment = 0.01;
-float value = 0;
+float angle = 0;
 
 void setup() {
   size(200,200,P3D);
@@ -11,13 +15,15 @@ void setup() {
 
 void draw() {
   background(0);
+  //directionalLight(255, 255, 255, -1, 0, 0);
   translate(x,y,z);
-  rotateX(value);
-  rotateY(value);
-  rotateZ(value);
+  rotateX(angle);
+  rotateY(angle);
+  rotateZ(angle);
   rectMode(CENTER);
-  rect(0,0,50,50);
+  //rect(0,0,50,50);
+  rect(0, 0, 100, 100);
 
-  value+= increment;
-  z += increment*20;
+  angle += increment;
+  //z += increment*20;
 }
