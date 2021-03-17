@@ -4,26 +4,26 @@ When hovering mouse over ellipse, each one fades and falls.
 */
 
 
-Magnet[] magnet= new Magnet [5]; //declare object array
+Hover[] hover= new Hover [5]; //declare object array
 
 void setup() {
   size (500, 500);
   //initialize each object by calling constructor
-  for (int i=0; i<magnet.length; i++) {   
-    magnet[i]= new Magnet(i*100+50, 100); //pass ellipse x,y position into each object
+  for (int i=0; i<hover.length; i++) {   
+    hover[i]= new Hover(i*100+50, 100); //pass ellipse x,y position into each object
   }
 }
 
 void draw() {
   size (500, 500);
   background(255);
-  for (int i=0; i<magnet.length; i++) {
-    magnet[i].display();
-    magnet[i].fall();
+  for (int i=0; i<hover.length; i++) {
+    hover[i].display();
+    hover[i].fall();
   }
 }
 
-class Magnet {
+class Hover {
   //instance variables
   float x;
   float y;
@@ -33,7 +33,7 @@ class Magnet {
   boolean goFall=false; 
 
   //constructor
-  Magnet(float tempX, float tempY) {
+  Hover(float tempX, float tempY) {
     x= tempX; 
     y= tempY;
   }
