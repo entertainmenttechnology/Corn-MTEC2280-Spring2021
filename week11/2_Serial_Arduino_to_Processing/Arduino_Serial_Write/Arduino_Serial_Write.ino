@@ -1,8 +1,6 @@
 // DEMO FOR SENDING SERIAL DATA FROM ARDUINO TO PROCESSING
 //READS ANALOG SENSOR AND WRITES VALUE TO SERIAL PORT 
 
-
-
 const int SENSOR = A0; //sensor hooked up to analog pin A0
 int val = 0;
 
@@ -18,6 +16,6 @@ void loop() {
 
   /////////Uncomment Serial.print() OR Serial.write() and not both!//////////////
   
-  Serial. println(val); //to send human-readable data to Arduino monitor
+  Serial.println(val); //to send human-readable data to Arduino monitor
   //Serial.write(val);  //to send binary data to Processing
 }
